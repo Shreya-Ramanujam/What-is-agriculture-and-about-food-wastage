@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Bubblegum Sans', cursive;
+    background-color: rgb(198, 112, 255);
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+p, li{
+  font-size: 21px;
+}
+
+p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#p-1{
+  font-size: 19px;
+}
+
+h1{
+  padding-left: 50px;
+}
+
+/* #topic{
+  padding-top:190px;
+  
+} */
+
+.farming{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#img-1{
+  width: 250px;
+  padding-left: 10px;
+}
+
+/* #what, #more, #history{
+  background-color: white;
+  border: 2px solid black;
+  margin: 500px;
+  border-radius: 20px;
+  margin-top: -1px;
+}
+
+#div-2{
+  background-color: white;
+  border: 2px solid black;
+  margin: 500px;
+  border-radius: 20px;
+  margin-top: -880px;
+}
+
+#more{
+  background-color: white;
+  border: 2px solid black;
+  margin: 950px;
+  border-radius: 20px;
+  margin-top: -500px;
+  margin-left: -1px;
+}
+
+#img-2{
+  background-color: white;
+  border: 2px solid black;
+  margin: 900px;
+  border-radius: 20px;
+  margin-top: -880px;
+  margin-right:-1px;
+}
+
+#div-1{
+  background-color: white;
+  border: 2px solid black;
+  margin: 900px;
+  height: 409px;
+  border-radius: 20px;
+  margin-top: -1290px;
+  margin-left: -1px;
+}
+
+.p{
+  font-size: 17px;
+}
+
+#history{
+  background-color: white;
+  border: 2px solid black;
+  margin: 900px;
+  height: 420px;
+  border-radius: 20px;
+  margin-top: -1290px;
+  margin-right: -1px;
+} */
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#FF69B4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:25px;
+    color: #111111;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+   font-weight: 900;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+#head{
+  padding-top: 200px;
+  padding-left: 70px;
+  color: black;
+  font-size: 50px;
+}
+
+header{
+  height: 500px;
+  width: 100%;
+  background-image: url("https://eco-business.imgix.net/ebmedia/fileuploads/soybean-field-farming-field-agriculture.jpg?fit=crop&h=960&ixlib=django-1.2.0&w=1440");
+  background-size: 100% 200%;
+  color: white;
+}
+
+#started{
+  margin-left: -80px;
+  font-size: 25px;
+}
+
+/* #part-1{
+  width: 250px;
+  height: 150px;
+  border-radius:25px
+}
+
+#part-2{
+  width: 250px;
+  height: 150px;
+  border-radius:25px
+}
+
+#part-3{
+  width: 250px;
+  height: 150px;
+  border-radius:25px
+}
+
+#part-4{
+  width: 250px;
+  height: 150px;
+  border-radius:25px
+}
+
+.div-3{
+  border-radius: 20px;
+  margin-top: -490px;
+  margin-left: -1px;
+  background-color: white;
+  border: 2px solid black;
+} */
+
+#helloo{
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+/* #helloo-2{
+  margin-top: 50px;
+  margin-left:-100px;
+} */
+
+/* #div-3{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  background-color: white;
+  border: 2px solid black;
+  margin: 900px;
+  height: 409px; 
+  border-radius: 20px;
+  margin-top: -20px;
+  margin-left: -1px;
+} */
+
+@media only screen and (max-width:650px) {
+  header{
+    height: 200px;
+    width: 400px;
+}
+
+  #head{
+    font-size:20px;
+    padding-left: 19px;
+    padding-top: 60px;
+}
+
+#what{
+  padding-left: 0;
+}
+
+.farming{
+  font-size: 27px;
+  padding-left: 0;
+}
+
+li{
+  font-size: 17px;
+  padding-right: 10px;
+  line-height: 30px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.p{
+  font-size: 19px;
+  line-height: 25px;
+}
+
+p{
+  font-size: 18px;
+  padding-left: 40px;
+}
+
+}

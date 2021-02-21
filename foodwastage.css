@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bubblegum Sans', cursive;
+    background-color:#FF855A;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F38106;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {  
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:25px;
+    color: #111111;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+   font-weight: 900;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  h1{
+    padding-top: 5px;
+  }
+
+  header{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKpXbn5vBq1eteOSrErGiDhePlpfRLmfaCMA&usqp=CAU");
+    background-size: 100% 190%;
+    color: white;
+  }
+
+  #text{
+    padding-top:220px;
+    padding-left:470px;
+    font-size: 50px;
+    color:#0C0B0B;
+  }
+
+  #amount{
+    width: 600px;
+    height: 500px;
+  }
+
+  p{
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #introduction, #percent, #cause, #wastage-in-other-countries, #effect, img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+@media only screen and (max-width:600px) {
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  header{
+    width:400px;
+    height: 210px;
+  }
+
+  #text{
+    font-size: 25px;
+    padding-left: 60px;
+    padding-top: 90px;
+  }
+
+  #amount{
+    width: 400px;
+    height: 350px;
+  }
+
+  h1{
+    font-size: 25px;
+    padding-top: 5px;
+  }
+
+  p{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 0px;
+  }
+}

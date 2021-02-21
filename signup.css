@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(-30deg, purple 0%, #3878b7 50%,#262626 50% ,grey 100%);
+}
+.box{
+    position: relative;
+    padding: 50px;
+    width: 360px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 5px 35px rgba(255,255,255, 0.2);
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    background: linear-gradient(to bottom , rgba(255,255,255,0.3), rgba(255,255,255,0.1) 15%, transparent 50%,transparent 85%, rgba(255,255,255,0.3)100%);
+}
+
+.box .form {
+    position: relative;
+    width: 100%;
+}
+.box .form h2{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom:30px ;
+}
+.box .form{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.rent-lable{
+    flex-direction: row;
+}
+.box .form input{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(255,255,255, 0.2);
+    background: transparent;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    box-shadow: inset 0 0 25px rgba(0,0,0,0.1);
+}
+.box .form::placeholder{
+    color: #fff;
+}
+
+
+
+textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(255,255,255, 0.2);
+    background: transparent;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    box-shadow: inset 0 0 25px rgba(0,0,0,0.1);
+}
+
+.box .form input[type="submit"]{
+    background-color: #fff;
+    color: #111;
+    max-width: 100px;
+    margin: auto;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+ button[type="cancel"]{
+    background-color: #fff;
+    color: #111;
+    max-width: 100px;
+    margin: auto;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 25px;
+ padding-right: 50px;
+ border-radius: 10px;
+}
+
+#div{
+    display: flex;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.box .form{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 5px;
+}
+.box .form {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(20, 208, 241);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:25px;
+    color: #111111;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+   font-weight: 900;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 700px) and (max-width:500px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+div{
+    text-align: center;
+}
+
+lable{
+    font-weight:bold;
+}
+
+input, textarea{
+    margin: 10px 0;
+}
+
+p,
+input[type="text"],
+input[type="number"],
+textarea,
+form{
+    width:350px;
+    padding:80x;
+}
+
+p,form{
+    margin:auto;
+}
+input[type="submit"]{
+    display:block;
+    background-color: violet;
+    color:white;
+    margin:auto;
+    padding:10px;
+    width:150px;
+    border:none;
+    border-radius: 5px;
+}
+input[type="checkbox"]{
+    margin-left:5px 0
+}

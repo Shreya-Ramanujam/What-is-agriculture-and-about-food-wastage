@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html">Home</a>
+        <a href="./agriculture.html">What is Agriculture</a>
+        <a href="./foodwastage.html">What is Food Wastage</a>
+        <a href="./solution.html">Solution for Food wastage and how to avoid Food wastage</a>
+        <a href="./entry.html">LOGIN/SIGN UP</a>
+        <a href="./contact.html">Who Made This</a>
+      </div>
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+    <section>
+      <!-- <h1>SignUp</h1> -->
+        <div class="box">
+          <div class="form">
+   
+        <form>  
+        <label class="block-display" id="class">Your Email</label>
+        <input type="text" placeholder="farming@gmail.com" >
+        <lable id="class">Username</lable>
+        <input type="text" name="name" id="name" placeholder="Username">
+        <lable id="class"> Password</lable>
+        <input type="text" name="name" id="name" placeholder="Password">
+        <label class="block-display">Which Country are you From?</label>
+        <select name="" id="">
+            <option value="india">India</option>
+            <option value="uae">UAE</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+       </select>
+      <br>
+       <!--<label class="block-display">Do you wanna get notification from us??</label>
+      <input type="radio">
+      <label class="rent-label">Yes</label>
+      <input type="radio">
+      <label class="rent-label">No</label> -->
+      <br>
+      <div id="div">
+        <!-- <a id="cancel" href="./entry.html">Cancel</a> -->
+      <button type="cancel"><a href="./entry.html">Cancel</a></button>
+        <input type="submit" value="Sign up"></div>
+      <!-- <h4 id="thanks">Thanks for your valuable feedback.</h4>-->
+    </div>
+    </div>
+    </section>
+    <script src="./signup.js"></script>
+  </div>
+
+    </section>
+
+    <!-- <a id="a" href="./index.html">Let's Go back</a> -->
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script> 
+
+    <script src="./login.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bubblegum Sans', cursive;
+    background-color: rgb(198, 112, 255);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#FF69B4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:25px;
+    color: #111111;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+   font-weight: 900;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 700px) and (max-width:500px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 23px;}
+  }
+
+  header{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-r7s8taq5hp0fm1upu432k0g040-20171016192146.Medi.jpeg");
+    background-size: 100% 100%;
+    color: white;
+  }
+
+  #header-text{
+    padding-top: 200px;
+    padding-left: 300px;
+    font-size: 50px;
+  }
+
+  li{
+    text-align: left;
+  }
+
+p,li{
+  font-size: 21px;
+}
+
+#love_food{
+  width: 400px;
+  height: 250px;
+  padding-left: 550px;
+}
+
+
+#ways, h1, #love_food{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+#img-1{
+  width: 200px;
+  height: 200px;
+ /* margin-top: -900px;
+  margin-left: 300px;*/
+}
+
+#img-2{
+  width: 200px;
+  height: 200px;
+  /*margin-left: 1000px;
+  margin-top: -140px;*/
+}
+
+#img-3{
+  width: 200px;
+  height: 200px;
+}
+
+#img-4{
+  width: 200px;
+  height: 200px;
+}
+
+#img-5{
+  width: 200px;
+  height: 200px;
+}
+
+#img-6{
+  width: 200px;
+  height: 200px;
+}
+
+#img-7{
+  width: 200px;
+  height: 200px;
+}
+
+#img-8{
+  width: 200px;
+  height: 200px;
+}
+
+
+@media only screen and (max-width:650px) {
+  *{
+    margin:0;
+    padding:0;
+  }
+
+  header{
+    width: 400px;
+    height: 200px;
+  }
+
+  #header-text{
+    font-size: 30px;
+    padding-left: 40px;
+    color: white;
+    padding-top: 90px;
+    font-size: 20px;
+  }
+
+#con{
+  font-size: 19px;
+}
+
+#img{
+  padding-left: 100px;
+}
+
+  #love_food{
+    padding-left:5px;
+    width: 300px;
+    height:200px;
+  }
+
+  li,p{
+    font-size: 19px;
+  }
+
+  h1{
+    font-size: 20px;
+    padding-left: -500px;
+  }
+  /* body{
+  text-align: center;
+  } */
+}
+
+
+
